@@ -37,6 +37,7 @@ public class SlotMachine : MonoBehaviour {
         if(isFirstSpin)
         {
             isFirstSpin = false;
+            Debug.Log("Cheat Win");
             return possibleSpins.Spins[2];
         }
         else
